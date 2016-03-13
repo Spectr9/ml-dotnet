@@ -1,0 +1,4 @@
+Type;Method;Mode;Platform;Jit;Framework;Toolchain;Runtime;LaunchCount;WarmupCount;TargetCount;Affinity;Median;StdDev
+NumlTest;DecisionTreeTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;3.0074 ms;0.5719 ms
+NumlTest;KNNTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;6.6210 ms;0.3223 ms
+NumlTest;NaiveBayesTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;1.9585 ms;0.1935 ms
