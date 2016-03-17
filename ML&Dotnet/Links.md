@@ -4,7 +4,7 @@
 * [Книга "Machine Learning Projects for .NET Developers"](http://www.apress.com/9781430267676)
 * [Примеры использования F#](http://fsharpforfunandprofit.com/series/low-risk-ways-to-use-fsharp-at-work.html)
 
-## Материалы по F#
+## Материалы по FSharp
 * [F# for fun and profit](http://fsharpforfunandprofit.com)
   Один из моих любимых сайтов по F#, где в легкой манере показано, как использовать F# к наибольшей своей пользе.
 * [F# Software Foundation](http://fsharp.org/)
