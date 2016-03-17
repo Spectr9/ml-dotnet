@@ -5,5 +5,6 @@
 * [numl](http://numl.net/)
 * [Encog](http://www.heatonresearch.com/encog/)
 * [Azure ML](https://azure.microsoft.com/ru-ru/services/machine-learning/)
+* [BenchmarkDotNet](https://github.com/PerfDotNet/BenchmarkDotNet)
 * [FsLab](http://fslab.org/)
    
