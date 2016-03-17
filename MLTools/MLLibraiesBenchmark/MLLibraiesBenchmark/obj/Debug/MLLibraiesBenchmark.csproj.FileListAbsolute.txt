@@ -19,3 +19,6 @@ c:\users\loki\documents\visual studio 2015\Projects\MLLibraiesBenchmark\MLLibrai
 C:\Users\loki\Documents\Visual Studio 2015\Projects\MLLibraiesBenchmark\MLLibraiesBenchmark\bin\Debug\encog-core-cs.dll
 C:\Users\loki\Documents\Visual Studio 2015\Projects\MLLibraiesBenchmark\MLLibraiesBenchmark\bin\Debug\BenchmarkDotNet.dll
 C:\Users\loki\Documents\Visual Studio 2015\Projects\MLLibraiesBenchmark\MLLibraiesBenchmark\bin\Debug\BenchmarkDotNet.xml
+C:\Users\loki\Desktop\ML-dotnet\MLTools\MLLibraiesBenchmark\MLLibraiesBenchmark\bin\Debug\MLLibraiesBenchmark.exe.config
+C:\Users\loki\Desktop\ML-dotnet\MLTools\MLLibraiesBenchmark\MLLibraiesBenchmark\obj\Debug\MLLibraiesBenchmark.exe
+C:\Users\loki\Desktop\ML-dotnet\MLTools\MLLibraiesBenchmark\MLLibraiesBenchmark\obj\Debug\MLLibraiesBenchmark.pdb

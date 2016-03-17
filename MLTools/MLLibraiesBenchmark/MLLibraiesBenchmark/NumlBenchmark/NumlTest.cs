@@ -10,6 +10,7 @@ using numl.Supervised.DecisionTree;
 using numl.Supervised.NaiveBayes;
 using System.Globalization;
 using numl.Supervised;
+using numl.Supervised.KNN
 using BenchmarkDotNet.Attributes;
 
 namespace MLLibraiesBenchmark.NumlBenchmark
@@ -47,7 +48,7 @@ namespace MLLibraiesBenchmark.NumlBenchmark
         public void KNNTest()
         {
             var description = Descriptor.Create<Iris>();
-            var generator = new numl.Supervised.KNN.KNNGenerator();
+            var generator = new KNNGenerator();
             var model = generator.Generate(description, _trainingData);
             _results = PredictAll(model, _testingData);
         }

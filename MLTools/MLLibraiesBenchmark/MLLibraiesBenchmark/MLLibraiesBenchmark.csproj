@@ -79,7 +79,6 @@
   <ItemGroup>
     <Compile Include="AccordBenchmark\AccordTest.cs" />
     <Compile Include="AccordBenchmark\ClassificationData.cs" />
-    <Compile Include="BenchmarkStart.cs" />
     <Compile Include="NumlBenchmark\Iris.cs" />
     <Compile Include="NumlBenchmark\NumlTest.cs" />
     <Compile Include="Program.cs" />
