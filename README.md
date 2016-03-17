@@ -9,4 +9,4 @@
   * [Машинное обучение и .NET](https://github.com/nevoroman/ml-dotnet/blob/master/ML%26Dotnet/Links.md)
   * [Инструменты машинного обучения для платформы .NET](https://github.com/nevoroman/ml-dotnet/tree/master/MLTools/Links.md)
 * [Демо: спам-фильтр на основе Байесовского классификатора](https://github.com/nevoroman/ml-dotnet/tree/master/ML%26Dotnet/SpamOrHam)
-* [Бенчмарки библиотек машинного обучения для .NET"](https://github.com/nevoroman/ml-dotnet/tree/master/MLTools/MLLibraiesBenchmark)
+* [Бенчмарки библиотек машинного обучения для .NET](https://github.com/nevoroman/ml-dotnet/tree/master/MLTools/MLLibraiesBenchmark)
