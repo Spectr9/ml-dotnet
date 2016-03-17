@@ -1,4 +1,4 @@
 Type;Method;Mode;Platform;Jit;Framework;Toolchain;Runtime;LaunchCount;WarmupCount;TargetCount;Affinity;Median;StdDev
-AccordTest;DecisionTreeTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;1,096.7456 us;63.8799 us
-AccordTest;KNNTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;164.5729 us;17.8187 us
-AccordTest;NaiveBayesTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;123.4386 us;2.2288 us
+AccordTest;DecisionTreeTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;1,545.6974 us;211.9197 us
+AccordTest;KNNTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;177.4697 us;72.3656 us
+AccordTest;NaiveBayesTest;Throughput;Host;Host;Host;Classic;Host;Auto;Auto;Auto;Auto;183.8306 us;5.9074 us

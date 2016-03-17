@@ -10,7 +10,7 @@ using numl.Supervised.DecisionTree;
 using numl.Supervised.NaiveBayes;
 using System.Globalization;
 using numl.Supervised;
-using numl.Supervised.KNN
+using numl.Supervised.KNN;
 using BenchmarkDotNet.Attributes;
 
 namespace MLLibraiesBenchmark.NumlBenchmark

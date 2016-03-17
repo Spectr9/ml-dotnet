@@ -62,7 +62,7 @@ evaluate wordTokenizer allTokens
 
 
 // How many ham we are have?
-let hamCnt = tokenized |> Seq.filter (fun x -> x |> fst = Ham) |> Seq.length
+let hamCnt = tokenized |> Seq.filter (fun (lbl,_) -> lbl=Ham) |> Seq.length
 let totalCnt = tokenized |> Seq.length
 
 proportion hamCnt totalCnt

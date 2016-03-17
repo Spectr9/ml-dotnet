@@ -1,4 +1,5 @@
-﻿using MLLibraiesBenchmark.AccordBenchmark;
+﻿using BenchmarkDotNet.Running;
+using MLLibraiesBenchmark.AccordBenchmark;
 using MLLibraiesBenchmark.NumlBenchmark;
 
 namespace MLLibraiesBenchmark
@@ -7,8 +8,8 @@ namespace MLLibraiesBenchmark
     {
         public static void Main(string[] args)
         {
-            var accordTest = new AccordTest();
-            var numlTest = new NumlTest();
+            BenchmarkRunner.Run<AccordTest>();
+            BenchmarkRunner.Run<NumlTest>();
         }
     }
 
