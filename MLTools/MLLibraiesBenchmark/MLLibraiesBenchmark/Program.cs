@@ -1,6 +1,4 @@
 ﻿using BenchmarkDotNet.Running;
-using MLLibraiesBenchmark.AccordBenchmark;
-using MLLibraiesBenchmark.NumlBenchmark;
 
 namespace MLLibraiesBenchmark
 {
@@ -8,8 +6,8 @@ namespace MLLibraiesBenchmark
     {
         public static void Main(string[] args)
         {
-            BenchmarkRunner.Run<AccordTest>();
-            BenchmarkRunner.Run<NumlTest>();
+            BenchmarkRunner.Run<IrisBenchmark>();
+            BenchmarkRunner.Run<SkinBenchmark>();
         }
     }
 

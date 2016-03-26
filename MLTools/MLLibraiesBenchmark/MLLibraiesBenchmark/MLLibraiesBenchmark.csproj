@@ -77,12 +77,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccordBenchmark\AccordTest.cs" />
+    <Compile Include="AccordBenchmark\AccordClassificator.cs" />
     <Compile Include="AccordBenchmark\ClassificationData.cs" />
+    <Compile Include="IrisBenchmark.cs" />
     <Compile Include="NumlBenchmark\Iris.cs" />
-    <Compile Include="NumlBenchmark\NumlTest.cs" />
+    <Compile Include="NumlBenchmark\NumlClassificator.cs" />
+    <Compile Include="NumlBenchmark\Skin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkinBenchmark.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
