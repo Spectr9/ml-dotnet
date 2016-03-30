@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 
-namespace MLLibraiesBenchmark.AccordBenchmark
+namespace MLLibrariesBenchmark.AccordBenchmark
 {
     /// <summary>
     /// Class used to import and store a dataset from a

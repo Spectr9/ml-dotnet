@@ -1,12 +1,9 @@
 ﻿using numl.Model;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MLLibraiesBenchmark.NumlBenchmark
+namespace MLLibrariesBenchmark.NumlBenchmark
 {
     public class Skin
     {
@@ -22,18 +19,15 @@ namespace MLLibraiesBenchmark.NumlBenchmark
         public static IEnumerable<Skin> LoadData(string path)
         {
             var dataLines = File.ReadAllLines(path).Skip(1);
-            foreach (var line in dataLines)
+            return dataLines
+                .Select(line => line.Split(','))
+                .Select(data => new Skin
             {
-                var data = line.Split(',');
-
-                yield return new Skin
-                {
-                    R = int.Parse(data[0]),
-                    G = int.Parse(data[1]),
-                    B = int.Parse(data[2]),
-                    Label = data[3]
-                };
-            }
+                R = int.Parse(data[0]),
+                G = int.Parse(data[1]),
+                B = int.Parse(data[2]),
+                Label = data[3]
+            });
         }
     }
 }

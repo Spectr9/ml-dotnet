@@ -1,15 +1,14 @@
 ﻿using BenchmarkDotNet.Attributes;
-using MLLibraiesBenchmark.AccordBenchmark;
-using MLLibraiesBenchmark.NumlBenchmark;
 using System.Linq;
+using MLLibrariesBenchmark.AccordBenchmark;
+using MLLibrariesBenchmark.NumlBenchmark;
 
-namespace MLLibraiesBenchmark
+namespace MLLibrariesBenchmark
 {
     public class SkinBenchmark
     {
-
-        public AccordClassificator _accordClassificator;
-        public NumlClassificator<Skin> _numlClassificator;
+        private AccordClassificator _accordClassificator;
+        private NumlClassificator<Skin> _numlClassificator;
 
         [Setup]
         public void Init()
@@ -25,19 +24,8 @@ namespace MLLibraiesBenchmark
             _numlClassificator = new NumlClassificator<Skin>(
                 Skin.LoadData("skinTraining").ToList(),
                 Skin.LoadData("skinTesting").ToList(),
-                (list, model) =>
-                {
-                    double error = 0;
-                    foreach (var skin in list)
-                    {
-                        var trueClass = skin.Label;
-                        var predictedClass = model.Predict(skin).Label;
-                        if (trueClass != predictedClass) error++;
-                    }
-                    return error / list.Count;
-                }
+                model => model.Label
             );
-
         }
 
         [Benchmark]
@@ -45,26 +33,32 @@ namespace MLLibraiesBenchmark
         {
             return _numlClassificator.NaiveBayesTest();
         }
-        [Benchmark]
+
+        //[Benchmark]
+        // Removed, becouse this **** works 3,5 hours
         public double Numl_KNN()
         {
             return _numlClassificator.KNNTest();
         }
+
         [Benchmark]
         public double Numl_DecisionTree()
         {
             return _numlClassificator.DecisionTreeTest();
         }
+
         [Benchmark]
         public double Accord_NaiveBayes()
         {
             return _accordClassificator.NaiveBayesTest();
         }
+
         [Benchmark]
         public double Accord_KNN()
         {
             return _accordClassificator.KNNTest();
         }
+
         [Benchmark]
         public double Accord_DecisionTree()
         {
