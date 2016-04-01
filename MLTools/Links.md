@@ -6,5 +6,6 @@
 * [Encog](http://www.heatonresearch.com/encog/)
 * [Azure ML](https://azure.microsoft.com/ru-ru/services/machine-learning/)
 * [BenchmarkDotNet](https://github.com/PerfDotNet/BenchmarkDotNet)
+* [scikit-learn](http://scikit-learn.org/stable/)
 * [FsLab](http://fslab.org/)
    
