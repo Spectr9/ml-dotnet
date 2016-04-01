@@ -1,8 +1,8 @@
 # Ссылки по теме "Машинное обучение на платформе .NET : ML и .NET"
 
 ## Материалы, на которые я ссылался в ходе доклада
-* [Книга "Machine Learning Projects for .NET Developers"](http://www.apress.com/9781430267676)
 * [Примеры использования F#](http://fsharpforfunandprofit.com/series/low-risk-ways-to-use-fsharp-at-work.html)
+* [MBrace](http://mbrace.io)
 
 ## Материалы по FSharp
 * [F# for fun and profit](http://fsharpforfunandprofit.com)
