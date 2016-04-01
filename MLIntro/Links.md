@@ -4,6 +4,11 @@
 * [Рекурентная нейронная сеть в 10 строчек кода оценила отзывы зрителей нового эпизода “Звездных войн” ](https://habrahabr.ru/company/dca/blog/274027/)
 * [AlphaGo на пальцах](https://habrahabr.ru/post/279071/)
 
+## Книги
+* [Mathias Brandewinder - Machine Learning Projects for .NET Developers](http://www.apress.com/9781430267676)
+* [Matthew Kirk - Thoughtful Machine Learning](http://shop.oreilly.com/product/0636920032298.dos)
+* [Tomas Petricek - Analyzing and Visualizing Data with F#](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
+
 ## Курсы для новичков
 * [Курс лекций К. К. Воронцова](https://yandexdataschool.ru/edu-process/courses)
    Один из самых популярных рускоязычных курсов по машинному обучению. В курсе рассматриваются основные задачи обучения по прецедентам: классификация, кластеризация, регрессия, понижение размерности. Упор делается на глубокое понимание математических основ, взаимосвязей, достоинств и ограничений рассматриваемых методов.
