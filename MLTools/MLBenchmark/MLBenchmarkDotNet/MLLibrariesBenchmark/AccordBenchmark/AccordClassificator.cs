@@ -21,16 +21,9 @@ namespace MLLibrariesBenchmark.AccordBenchmark
 
         public double DecisionTreeTest()
         {
-            var decisionVariables = new List<DecisionVariable>();
+            var attributes = DecisionVariable.FromCodebook(_trainingData.CodeBook, _trainingData.InputColumnNames.ToArray());
 
-            for (var n = 0; n < _trainingData.InputAttributeNumber; ++n)
-            {
-                decisionVariables.Add(
-                    new DecisionVariable("variable_" + (n + 1),
-                        DecisionVariableKind.Continuous));
-            }
-
-            var classificationDecisionTree = new DecisionTree(decisionVariables, _trainingData.OutputPossibleValues);
+            var classificationDecisionTree = new DecisionTree(attributes, _trainingData.OutputPossibleValues);
             new C45Learning(classificationDecisionTree).Run(_trainingData.InputData, _trainingData.OutputData);
 
             var testingDataCount = _testingData.InputData.Length;

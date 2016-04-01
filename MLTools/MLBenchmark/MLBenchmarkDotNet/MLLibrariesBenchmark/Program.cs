@@ -10,7 +10,4 @@ namespace MLLibrariesBenchmark
             BenchmarkRunner.Run<SkinBenchmark>();
         }
     }
-
-
-
 }
